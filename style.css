@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#ffe6ec;
+    text-align:center;
+}
+
+h1{
+    color:#ff2d55;
+    margin-top:30px;
+}
+
+.subtitle{
+    color:#555;
+}
+
+.gallery{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    width:300px;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+
+.card p{
+    padding:15px;
+    line-height:1.6;
+}
